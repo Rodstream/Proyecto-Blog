@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #262626;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#19204e",GradientType=1);
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #262626;
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #fff;
+    margin: 10px 0;
+
+}
+
+.btn:hover {
+    opacity: .8;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+
+/* navegacion */
+
+.nav-main {
+    display: flex;
+    font-size: 17px;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+
+.img-logo {
+    width: 50px;
+}
+
+.nav-main ul {
+    display: flex; 
+}
+
+.nav-main ul li {
+    padding: 10px;
+}
+
+.nav-main ul li a {
+    padding: 5px;
+}
+
+.nav-main ul li a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.nav-main ul.nav-menu {
+    flex: 1;
+    margin-left: 20px;
+}
