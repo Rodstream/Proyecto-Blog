@@ -81,3 +81,17 @@ ul {
     flex: 1;
     margin-left: 20px;
 }
+
+.main {
+    display: flex;
+    justify-content: center;
+
+}
+
+.showcase {
+    background-color: aliceblue;
+    width: 95%;
+    height: 50vh;
+    margin-top: 5vh;
+
+}
